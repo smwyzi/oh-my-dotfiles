@@ -210,6 +210,7 @@ map <C-H> <C-W>h<C-W>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin on
 set updatetime=100
+set backspace=2
 
 "" jump to last position when vim start
 if has("autocmd")
