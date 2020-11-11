@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/work//.oh-my-zsh"
+export ZSH="/home/work//.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -59,7 +59,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract fzf)
+plugins=(git extract docker kubectl vscode golang cp z vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 
 ZSH_DISABLE_COMPFIX=true
 #[[ -s /etc/zshrc ]] && source /etc/zshrc
@@ -101,26 +101,11 @@ bashcompinit
 autoload -U compinit
 compinit
 
-#allow tab completion in the middle of a word
+# allow tab completion in the middle of a word
 setopt COMPLETE_IN_WORD
 
 # user
 export PATH=$PATH:$HOME/bin/
-
-# gcc 4.8
-export PATH=/opt/compiler/gcc-4.8.2/bin/:$PATH
-
-# bcloud
-export PATH=$HOME/.BCloud/bin/:$PATH
-alias b='bcloud'
-alias bl='bcloud local'
-alias bb='bcloud build'
-
-# jumbo
-[[ -s ~/.jumbo/etc/bashrc ]] && emulate bash -c 'source ~/.jumbo/etc/bashrc'
-
-## fzf
-#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Lan
 export LC_ALL=en_US.UTF-8
