@@ -1,3 +1,0 @@
-#!/bin/bash
-
-echo "ftp://"`hostname``readlink -f $1`
