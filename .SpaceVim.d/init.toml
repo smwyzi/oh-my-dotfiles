@@ -12,7 +12,6 @@
     # if you want to use more colorscheme, please load the colorscheme
     # layer
     colorscheme = "gruvbox"
-    # colorscheme = "NeoSolarized"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -27,7 +26,7 @@
 
     relativenumber = false
 
-    bootstrap_before = "myspacevim#init"
+    bootstrap_before = "myspacevim#before"
 
 # Enable autocomplete layer
 [[layers]]
