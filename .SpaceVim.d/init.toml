@@ -40,6 +40,10 @@
     default_height = 30
 
 [[layers]]
+    name = 'core'
+    enable_smooth_scrolling = false
+
+[[layers]]
     name = "git"
 
 [[layers]]
