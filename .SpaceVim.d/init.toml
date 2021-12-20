@@ -53,7 +53,10 @@
     name = "fzf"
 
 [[layers]]
+    name = "lang#c"
+
+[[layers]]
     name = "lang#go"
 
 [[layers]]
-    name = "lang#c"
+    name = "lang#python"
