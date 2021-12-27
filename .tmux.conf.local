@@ -227,7 +227,7 @@ tmux_conf_theme_right_separator_sub='\uE0B3'  #   PowerlineSymbols.otf font, see
 #     - #{username}
 #     - #{username_ssh}
 tmux_conf_theme_status_left="❐ #S"
-tmux_conf_theme_status_right="#{mouse}#{pairing}#{synchronized}#{?battery_status,#{battery_status},}#{?battery_percentage, #{battery_percentage},} | %R %Y-%m-%d | #{username}#{root}@#{hostname}"
+tmux_conf_theme_status_right="#{mouse}#{pairing}#{synchronized}#{?battery_status,#{battery_status},}#{?battery_percentage, #{battery_percentage},}|%R %Y-%m-%d| #{username}#{root}@#{hostname}"
 
 set-option -g status-justify centre
 
